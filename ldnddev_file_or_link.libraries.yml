@@ -1,0 +1,11 @@
+ldnddev_file_or_link:
+  css:
+    component:
+      assets/css/ldnddev_file_or_link.css:
+        minified: false
+  js:
+    assets/js/ldnddev_file_or_link.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/drupal

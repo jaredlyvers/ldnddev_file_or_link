@@ -1,0 +1,45 @@
+uuid: 48e5d870-2bac-4fdc-a794-9a7d0bf9ea2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_add_a_link.field_ldnddev_link_title
+    - field.field.paragraph.ldnddev_add_a_link.field_ldnddev_link_type
+    - field.field.paragraph.ldnddev_add_a_link.field_ldnddev_link_url
+    - paragraphs.paragraphs_type.ldnddev_add_a_link
+  module:
+    - link
+    - options
+id: paragraph.ldnddev_add_a_link.default
+targetEntityType: paragraph
+bundle: ldnddev_add_a_link
+mode: default
+content:
+  field_ldnddev_link_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_link_type:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_ldnddev_link_url:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

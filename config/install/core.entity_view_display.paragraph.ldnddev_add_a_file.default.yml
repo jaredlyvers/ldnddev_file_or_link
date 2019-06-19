@@ -1,0 +1,40 @@
+uuid: 21161290-be09-442d-9538-4352fef76dac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_add_a_file.field_ldnddev_file_title
+    - field.field.paragraph.ldnddev_add_a_file.field_ldnddev_file_type
+    - field.field.paragraph.ldnddev_add_a_file.field_ldnddev_file_url
+    - paragraphs.paragraphs_type.ldnddev_add_a_file
+  module:
+    - file
+    - options
+id: paragraph.ldnddev_add_a_file.default
+targetEntityType: paragraph
+bundle: ldnddev_add_a_file
+mode: default
+content:
+  field_ldnddev_file_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_file_type:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_ldnddev_file_url:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_url_plain
+    region: content
+hidden: {  }

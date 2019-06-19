@@ -1,0 +1,9 @@
+uuid: b2aeed72-1e31-4b0c-8847-3086a844d4c2
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_file_or_link
+label: 'ldnddev File Or Link'
+icon_uuid: null
+description: 'This bundle is used to add an Image, file or a link component to the page.'
+behavior_plugins: {  }

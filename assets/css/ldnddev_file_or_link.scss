@@ -1,0 +1,70 @@
+// vars
+$brand-01: #262626;
+$brand-02: #3d3d3d;
+$brand-03: #6e6e6e;
+$text-01: #262626;
+$text-02: #6e6e6e;
+$text-03: #9a9a9a;
+$ui-01: #f7f7f7;
+$ui-02: #f2f2f2;
+$ui-03: #e2e2e2;
+$ui-04: #484848;
+$hover-primary: #ff3e3e;
+$hover-secondary: #ad2424;
+$hover-row: #f2f2f2;
+
+/**
+ * px to rem conversion
+ */
+ @function calculateRem($size){
+    $rem_size: $size / 16px;
+    @return #{$rem_size}rem;
+}
+@mixin font_size($size){
+    font-size: $size; // px fallback
+    font-size: calculateRem($size);
+}
+
+.ldnddev-file-or-link{
+    $parent: &;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+    padding: 0;
+    &__items{
+        // TODO
+    }
+    &__item{
+        &.-link{
+            & a{
+                color: $brand-01;
+                &:hover{
+                    color: $hover-primary;
+                }
+            }
+        }
+    }
+    &.-cta{
+        #{$parent}__item{
+            &.-link{
+                background-color: $ui-01;
+                border: solid 1px $brand-01;
+                margin-bottom: 4px;
+                padding: 20px 12px;
+                text-align: center;
+                & a{
+                    color: $brand-01;
+                    text-transform: uppercase;
+                }
+                &:hover{
+                    background-color: $hover-row;
+                    border: solid 1px $ui-04;
+                    & a{
+                        color: $hover-primary;
+                    }
+                }
+            }
+        }
+    }
+}

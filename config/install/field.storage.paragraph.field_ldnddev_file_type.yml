@@ -1,0 +1,27 @@
+uuid: 7306b4cd-d8fa-4574-96b9-26773369fc62
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_ldnddev_file_type
+field_name: field_ldnddev_file_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '-pdf'
+      label: 'PDF File'
+    -
+      value: '-zip'
+      label: 'ZIP File'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

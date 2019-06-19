@@ -1,0 +1,27 @@
+uuid: 5256fd93-ad8a-4ed4-8f72-095f4e72ddb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_file_url
+    - paragraphs.paragraphs_type.ldnddev_add_a_file
+  module:
+    - file
+id: paragraph.ldnddev_add_a_file.field_ldnddev_file_url
+field_name: field_ldnddev_file_url
+entity_type: paragraph
+bundle: ldnddev_add_a_file
+label: 'ldnddev File URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'assets/file-or-link/file/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf zip'
+  max_filesize: '15 MB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

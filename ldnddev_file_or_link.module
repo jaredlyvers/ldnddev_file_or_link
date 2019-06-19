@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * ldnddev File Or Link Module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function ldnddev_file_or_link_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__ldnddev_file_or_link' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__ldnddev_add_a_file' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__ldnddev_add_a_link' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_file_or_link' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_file_or_link_item' => [
+      'base hook' => 'paragraph',
+    ],
+  ];
+}

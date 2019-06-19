@@ -1,0 +1,21 @@
+uuid: 534ff4cb-6085-4662-8e3d-06033d9277a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_file_type
+    - paragraphs.paragraphs_type.ldnddev_add_a_file
+  module:
+    - options
+id: paragraph.ldnddev_add_a_file.field_ldnddev_file_type
+field_name: field_ldnddev_file_type
+entity_type: paragraph
+bundle: ldnddev_add_a_file
+label: 'ldnddev File Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

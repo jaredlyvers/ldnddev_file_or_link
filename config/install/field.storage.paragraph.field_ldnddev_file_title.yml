@@ -1,0 +1,21 @@
+uuid: d6f941c0-3b12-4909-b62e-3167cbb99543
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_ldnddev_file_title
+field_name: field_ldnddev_file_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

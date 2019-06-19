@@ -1,0 +1,9 @@
+uuid: a59d0eea-f9f4-429e-ad32-b6bd6d990786
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_add_a_link
+label: 'ldnddev Add A Link'
+icon_uuid: null
+description: 'This bundle is used to add a link (internal, external) to the File Or Link bundle.'
+behavior_plugins: {  }

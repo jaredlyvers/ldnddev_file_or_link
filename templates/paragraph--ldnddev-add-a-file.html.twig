@@ -1,0 +1,15 @@
+{% if content.field_ldnddev_file_type.0 %}
+    {% set file_type = content.field_ldnddev_file_type.0|render|trim %}
+{% endif %}
+{% if content.field_ldnddev_file_title.0 and content.field_ldnddev_file_url.0 %}
+    {% set file_title = content.field_ldnddev_file_title.0 %}
+    {% set file_url = content.field_ldnddev_file_url.0 %}
+{% endif %}
+<div class="ldnddev-file-or-link__item -link">
+    {% if file_type == '-pdf' %}
+        <a href="{{ file_url }}" target="_blank" class="{{ file_type }}" title="{{ file_title }}"><i class="fal fa-file-pdf"></i> {{ file_title }}</a>
+    {% endif %}
+    {% if file_type == '-zip' %}
+        <a href="{{ file_url }}" target="_blank" class="{{ file_type }}" title="{{ file_title }}"><i class="fal fa-file-archive"></i> {{ file_title }}</a>
+    {% endif %}
+</div>

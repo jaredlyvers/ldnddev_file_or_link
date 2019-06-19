@@ -1,0 +1,23 @@
+uuid: d1ad40f6-9dd7-40bc-a926-69d6d54eac2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_link_url
+    - paragraphs.paragraphs_type.ldnddev_add_a_link
+  module:
+    - link
+id: paragraph.ldnddev_add_a_link.field_ldnddev_link_url
+field_name: field_ldnddev_link_url
+entity_type: paragraph
+bundle: ldnddev_add_a_link
+label: 'ldnddev Link URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

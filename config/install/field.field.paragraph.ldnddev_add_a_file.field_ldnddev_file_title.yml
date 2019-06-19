@@ -1,0 +1,19 @@
+uuid: cc82c2c5-fe52-4928-bde2-1f459da32ab2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_file_title
+    - paragraphs.paragraphs_type.ldnddev_add_a_file
+id: paragraph.ldnddev_add_a_file.field_ldnddev_file_title
+field_name: field_ldnddev_file_title
+entity_type: paragraph
+bundle: ldnddev_add_a_file
+label: 'ldnddev File Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

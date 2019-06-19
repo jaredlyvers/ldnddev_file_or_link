@@ -1,0 +1,19 @@
+uuid: 61b46911-42fe-4621-b72b-b3fc9db555e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_file_or_link_css
+    - paragraphs.paragraphs_type.ldnddev_file_or_link
+id: paragraph.ldnddev_file_or_link.field_ldnddev_file_or_link_css
+field_name: field_ldnddev_file_or_link_css
+entity_type: paragraph
+bundle: ldnddev_file_or_link
+label: 'ldnddev File or Link CSS'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

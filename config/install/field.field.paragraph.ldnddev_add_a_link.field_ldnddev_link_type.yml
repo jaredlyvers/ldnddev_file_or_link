@@ -1,0 +1,21 @@
+uuid: bc05db62-092a-47b2-b979-7f4f0eed1e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_link_type
+    - paragraphs.paragraphs_type.ldnddev_add_a_link
+  module:
+    - options
+id: paragraph.ldnddev_add_a_link.field_ldnddev_link_type
+field_name: field_ldnddev_link_type
+entity_type: paragraph
+bundle: ldnddev_add_a_link
+label: 'ldnddev Link Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

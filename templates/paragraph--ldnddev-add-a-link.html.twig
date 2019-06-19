@@ -1,0 +1,15 @@
+{% if content.field_ldnddev_link_type.0 %}
+    {% set link_type = content.field_ldnddev_link_type.0|render|trim %}
+{% endif %}
+{% if content.field_ldnddev_link_title.0 and content.field_ldnddev_link_url.0 %}
+    {% set link_title = content.field_ldnddev_link_title.0 %}
+    {% set link_url = content.field_ldnddev_link_url.0 %}
+{% endif %}
+<div class="ldnddev-file-or-link__item -link">
+    {% if link_type == '-internal' %}
+        <a href="{{ link_url}}" class="{{ link_type }}" title="{{ link_title }}">{{ link_title }}</a>
+    {% endif %}
+    {% if link_type == '-external' %}
+        <a href="{{ link_url}}" target="_blank" class="{{ link_type }}" title="{{ link_title }}">{{ link_title }}</a>
+    {% endif %}
+</div>

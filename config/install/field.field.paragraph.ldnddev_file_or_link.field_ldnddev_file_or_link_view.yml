@@ -1,0 +1,23 @@
+uuid: 99540a61-08ea-4352-aea2-0225c107dbd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_file_or_link_view
+    - paragraphs.paragraphs_type.ldnddev_file_or_link
+id: paragraph.ldnddev_file_or_link.field_ldnddev_file_or_link_view
+field_name: field_ldnddev_file_or_link_view
+entity_type: paragraph
+bundle: ldnddev_file_or_link
+label: 'ldnddev File Or Link View'
+description: 'Select this option to turn your files or links into buttons. Leave unchecked for a list view of your files or links.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: ac79c61d-cc42-4f95-8309-d98982c33852
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_add_a_file
+label: 'ldnddev Add A File'
+icon_uuid: null
+description: 'This bundle is used to add a file (pdf, zip) to the File Or Link bundle.'
+behavior_plugins: {  }

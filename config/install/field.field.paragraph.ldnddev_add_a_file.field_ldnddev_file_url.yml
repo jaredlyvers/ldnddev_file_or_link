@@ -7,13 +7,15 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_add_a_file
   module:
     - file
+_core:
+  default_config_hash: onu2qY8_PdYTaL0gLX3OzUAwfmj8ERVShKJiCY0dHP8
 id: paragraph.ldnddev_add_a_file.field_ldnddev_file_url
 field_name: field_ldnddev_file_url
 entity_type: paragraph
 bundle: ldnddev_add_a_file
-label: 'ldnddev File URL'
+label: 'File URL'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

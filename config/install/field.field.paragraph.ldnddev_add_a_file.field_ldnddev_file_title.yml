@@ -5,13 +5,15 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_file_title
     - paragraphs.paragraphs_type.ldnddev_add_a_file
+_core:
+  default_config_hash: LQQSxyyKM8BhEvn0FhJdjtgKJpXXjXiZ9yiALShcyOI
 id: paragraph.ldnddev_add_a_file.field_ldnddev_file_title
 field_name: field_ldnddev_file_title
 entity_type: paragraph
 bundle: ldnddev_add_a_file
-label: 'ldnddev File Title'
+label: 'File Title'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

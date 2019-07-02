@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_file_or_link
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: zjXyhJeuXZ1TLorHsgnb9TldHzXzhwnstGhZqPqSB1w
 id: paragraph.ldnddev_file_or_link.field_ldnddev_file_or_link_item
 field_name: field_ldnddev_file_or_link_item
 entity_type: paragraph

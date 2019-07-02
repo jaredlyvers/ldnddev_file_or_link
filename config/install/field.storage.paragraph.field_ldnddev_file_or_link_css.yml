@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: ZTkleVBiHvNzpaXj5_JHn5GpdpirKl91Tje0if9M5oU
 id: paragraph.field_ldnddev_file_or_link_css
 field_name: field_ldnddev_file_or_link_css
 entity_type: paragraph

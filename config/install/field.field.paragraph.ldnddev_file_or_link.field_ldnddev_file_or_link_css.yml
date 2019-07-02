@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_file_or_link_css
     - paragraphs.paragraphs_type.ldnddev_file_or_link
+_core:
+  default_config_hash: qUMIiMnSPiVQlmRJ9bdvLU9cXF4jEIUjJNsCme0NeLA
 id: paragraph.ldnddev_file_or_link.field_ldnddev_file_or_link_css
 field_name: field_ldnddev_file_or_link_css
 entity_type: paragraph

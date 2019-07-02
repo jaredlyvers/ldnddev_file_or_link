@@ -10,6 +10,8 @@ dependencies:
   module:
     - link
     - options
+_core:
+  default_config_hash: fElyL19GG1B33aLYKpYcasSjeM_jK9GisHr3dE8WwlM
 id: paragraph.ldnddev_add_a_link.default
 targetEntityType: paragraph
 bundle: ldnddev_add_a_link

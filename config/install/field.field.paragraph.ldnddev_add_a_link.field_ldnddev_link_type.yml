@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_add_a_link
   module:
     - options
+_core:
+  default_config_hash: Dg3CPzozun95l3y_mZ7U9lbMFoXXsBc7isGp-Yl0uwg
 id: paragraph.ldnddev_add_a_link.field_ldnddev_link_type
 field_name: field_ldnddev_link_type
 entity_type: paragraph
 bundle: ldnddev_add_a_link
-label: 'ldnddev Link Type'
+label: 'Link Type'
 description: ''
 required: true
 translatable: false

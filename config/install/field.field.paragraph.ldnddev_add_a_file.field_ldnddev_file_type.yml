@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_add_a_file
   module:
     - options
+_core:
+  default_config_hash: WOR3c5iUMM9rnF7fecxwdIoGQMG_uG1LZQDPFZgLBBA
 id: paragraph.ldnddev_add_a_file.field_ldnddev_file_type
 field_name: field_ldnddev_file_type
 entity_type: paragraph
 bundle: ldnddev_add_a_file
-label: 'ldnddev File Type'
+label: 'File Type'
 description: ''
 required: true
 translatable: false

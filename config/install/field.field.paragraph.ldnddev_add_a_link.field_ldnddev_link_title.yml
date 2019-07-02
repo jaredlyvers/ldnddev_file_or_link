@@ -5,13 +5,15 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_link_title
     - paragraphs.paragraphs_type.ldnddev_add_a_link
+_core:
+  default_config_hash: yYOxCSU3pnvrdGeRkFXODfkGW1w74rtBrboxfhLIBSw
 id: paragraph.ldnddev_add_a_link.field_ldnddev_link_title
 field_name: field_ldnddev_link_title
 entity_type: paragraph
 bundle: ldnddev_add_a_link
-label: 'ldnddev Link Title'
+label: 'Link Title'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

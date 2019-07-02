@@ -5,6 +5,8 @@ dependencies:
   module:
     - file
     - paragraphs
+_core:
+  default_config_hash: NrnShwaO4L2qWm99kvZ4uHk1DlYO6J8s45jFjh7vj8o
 id: paragraph.field_ldnddev_file_url
 field_name: field_ldnddev_file_url
 entity_type: paragraph

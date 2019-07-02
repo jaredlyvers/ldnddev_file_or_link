@@ -10,6 +10,8 @@ dependencies:
   module:
     - file
     - options
+_core:
+  default_config_hash: 9lU7gfJ3soLEO9YgFu9TOO4I7ylzc6dR7ku6H1LaeGU
 id: paragraph.ldnddev_add_a_file.default
 targetEntityType: paragraph
 bundle: ldnddev_add_a_file

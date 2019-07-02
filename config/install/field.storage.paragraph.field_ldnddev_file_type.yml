@@ -5,6 +5,8 @@ dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: lEbnvZRX__HlHpbMzcvmNvErCVqmcnl8sUoF7evB_RQ
 id: paragraph.field_ldnddev_file_type
 field_name: field_ldnddev_file_type
 entity_type: paragraph

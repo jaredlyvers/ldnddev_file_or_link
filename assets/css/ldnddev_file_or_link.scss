@@ -46,15 +46,16 @@ $hover-row: #f2f2f2;
         }
     }
     &.-cta{
-        #{$parent}__item{
+        & #{$parent}__item{
             &.-link{
                 background-color: $ui-01;
                 border: solid 1px $brand-01;
-                margin-bottom: 4px;
-                padding: 20px 12px;
+                margin-bottom: 4px;                
                 text-align: center;
                 & a{
                     color: $brand-01;
+                    display: block;
+                    padding: 20px 12px;
                     text-transform: uppercase;
                 }
                 &:hover{
